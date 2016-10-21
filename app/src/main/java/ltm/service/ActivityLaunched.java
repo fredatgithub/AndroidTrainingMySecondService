@@ -20,7 +20,7 @@ public class ActivityLaunched extends Activity {
 			@Override
 			public void handleMessage(Message msg)
             {
-				//Toast.makeText(this, (msg.toString()), Toast.LENGTH_LONG).show();
+				Toast.makeText(ActivityLaunched.this, msg.toString(), Toast.LENGTH_LONG).show();
 				finish();
 			}
 		};
